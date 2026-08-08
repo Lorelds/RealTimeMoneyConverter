@@ -17,39 +17,7 @@ Say goodbye to manually typing numbers into a calculator app while traveling. Si
 * **State Management:** Stateful Widgets & Futures
 * **Networking:** HTTP (Live Exchange Rate API)
 
-## 🚀 Getting Started
 
-If you want to clone this repository and run it locally, follow these steps:
-
-### Prerequisites
-* Install [Flutter](https://flutter.dev/docs/get-started/install)
-* Install Android Studio or VS Code
-
-### Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/Lorelds/RealTimeMoneyConverter.git
-```
-2. Navigate to the project directory:
-```bash
-cd RealTimeMoneyConverter
-```
-3. Install dependencies:
-```bash
-flutter pub get
-```
-4. Run the app on a connected device:
-```bash
-flutter run
-```
-*(Note: Because this app relies on a physical camera stream, it must be tested on a physical Android or iOS device, not a web emulator).*
-
-## 📦 Building for Release (Android)
-To generate a lightning-fast, production-ready `.apk` with advanced R8 code shrinking and ProGuard ML Kit optimizations:
-```bash
-flutter build apk
-```
-You can find the generated file at `build/app/outputs/flutter-apk/app-release.apk`.
 
 ---
 *Built from scratch as an open-source side project.*
